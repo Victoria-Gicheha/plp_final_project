@@ -156,7 +156,7 @@ GitHub link: (https://github.com/Victoria-Gicheha/plp_final_project.git)
 
 Live Link: https://calm-eats-app.lovable.app/tips
 
-Canva Link: 
+Pitch Deck : https://www.canva.com/design/DAG4xEeBpgg/JJSaiZyt2DOJRnAnpcyizA/edit?utm_content=DAG4xEeBpgg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## 📜 License
 
