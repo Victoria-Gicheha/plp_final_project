@@ -119,7 +119,7 @@ your-project/
 
 1. Clone the repository:
 
-git clone https://github.com/Victoria-Gicheha/calm-eats-app.git
+git clone (https://github.com/Victoria-Gicheha/plp_final_project.git)
 
 2. Open the project folder.
 
@@ -152,9 +152,9 @@ Eating disorders affect millions globally and are closely linked to mental healt
 By creating a simple, accessible support tool, the app contributes to raising awareness and improving emotional resilience.
 
 ## Links
-GitHub link: https://github.com/Victoria-Gicheha/calm-eats-app.git
+GitHub link: (https://github.com/Victoria-Gicheha/plp_final_project.git)
 Live Link: https://calm-eats-app.lovable.app/tips
-Canva Link: 
+Pitch Deck: https://www.canva.com/design/DAG4xEeBpgg/JJSaiZyt2DOJRnAnpcyizA/edit?utm_content=DAG4xEeBpgg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## 📜 License
 
