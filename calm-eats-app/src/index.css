@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Calming wellness color palette */
+    --background: 45 20% 96%;
+    --foreground: 200 15% 25%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 15% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 15% 25%;
+
+    /* Sage green primary - calming and healing */
+    --primary: 142 35% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Soft blue secondary */
+    --secondary: 200 35% 88%;
+    --secondary-foreground: 200 15% 25%;
+
+    /* Muted warm tones */
+    --muted: 45 20% 92%;
+    --muted-foreground: 200 10% 45%;
+
+    /* Gentle accent */
+    --accent: 165 45% 75%;
+    --accent-foreground: 200 15% 25%;
+
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 20% 88%;
+    --input: 200 20% 88%;
+    --ring: 142 35% 55%;
+
+    --radius: 1rem;
+    
+    /* Custom wellness tokens */
+    --wellness-gradient: linear-gradient(135deg, hsl(142 35% 55%) 0%, hsl(165 45% 65%) 100%);
+    --calm-gradient: linear-gradient(180deg, hsl(200 35% 95%) 0%, hsl(165 35% 92%) 100%);
+    --card-shadow: 0 4px 20px -4px hsl(142 35% 55% / 0.15);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 15% 12%;
+    --foreground: 45 20% 95%;
+
+    --card: 200 15% 15%;
+    --card-foreground: 45 20% 95%;
+
+    --popover: 200 15% 15%;
+    --popover-foreground: 45 20% 95%;
+
+    --primary: 142 35% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 15% 20%;
+    --secondary-foreground: 45 20% 95%;
+
+    --muted: 200 15% 20%;
+    --muted-foreground: 200 10% 65%;
+
+    --accent: 165 45% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 15% 25%;
+    --input: 200 15% 25%;
+    --ring: 142 35% 55%;
+    
+    --wellness-gradient: linear-gradient(135deg, hsl(142 35% 45%) 0%, hsl(165 45% 55%) 100%);
+    --calm-gradient: linear-gradient(180deg, hsl(200 15% 15%) 0%, hsl(165 15% 18%) 100%);
+    --card-shadow: 0 4px 20px -4px hsl(142 35% 35% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
